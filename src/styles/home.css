@@ -1,0 +1,24 @@
+body {
+  background-color: coral;
+}
+
+.top-home {
+  position: relative;
+  width: 100%;
+}
+.top-home-img {
+  width: 100%;
+}
+.top-home-txt {
+  position: absolute;
+  font-family: "Big John", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  letter-spacing: 5px;
+  top: 30%;
+  left: 50px;
+  background-color: rgba(250, 129, 0, 1);
+  color: black;
+  border-radius: 15px;
+  padding: 20px;
+}
