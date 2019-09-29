@@ -1,0 +1,61 @@
+<a id="projects"></a>
+<div class="projects">
+  <h1 style="color: coral">My Projects & Participations</h1>
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col mozaic-grid">
+        <a href="https://www.instagram.com/givmie__/?hl=fr" target="_blank">
+          <img src="./assets/img/givmie.png" class="mozaic-img" alt="givmie"
+        /></a>
+        <a onclick="on()">
+          <img src="./assets/img/k-denas.png" class="mozaic-img" alt="kdenas" />
+        </a>
+        <a href="https://github.com/guillaumeMECE/AmazonECE" target="_blank">
+          <img
+            src="./assets/img/amazonece.png"
+            class="mozaic-img"
+            alt="amazonece"
+        /></a>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col mozaic-grid">
+        <a href="https://github.com/guillaumeMECE/espace-natal" target="_blank">
+          <img
+            src="./assets/img/espacenatal.png"
+            class="mozaic-img"
+            alt="espace-natal"
+        /></a>
+        <a href="https://nolarsen.com" target="_blank">
+          <img src="./assets/img/nolweb.png" class="mozaic-img" alt="nolarsen"
+        /></a>
+        <a
+          href="https://github.com/guillaumeMECE/TodoList-Backend"
+          target="_blank"
+        >
+          <img src="./assets/img/todo.png" class="mozaic-img" alt="todo"
+        /></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="kdenasOverlay" class="overlay" onclick="off()">
+  <video id="videoKDenas" class="overlay-content" width="720">
+    <source src="./assets/video/k-denas.mp4" type="video/mp4" />
+    Your browser does not support HTML5 video.
+  </video>
+</div>
+
+<script>
+  const kdenasVideo = document.getElementById("videoKDenas");
+  function on() {
+    document.getElementById("kdenasOverlay").style.display = "block";
+    kdenasVideo.play();
+  }
+
+  function off() {
+    document.getElementById("kdenasOverlay").style.display = "none";
+    kdenasVideo.pause();
+  }
+</script>

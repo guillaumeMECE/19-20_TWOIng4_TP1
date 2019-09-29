@@ -1,0 +1,63 @@
+<!-- TITRE ENVOI MESSAGE -->
+<a id="media"></a>
+<h1 class="mb-5">Send me a message</h1>
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-6">
+      <form action="" method="post">
+        <!-- INPUT NOM/PRENOM -->
+        <div class="form-row">
+          <div class="col">
+            <label class="mt-2" for="inputNom">Nom</label>
+            <input
+              type="text"
+              class="form-control"
+              name="inputNom"
+              aria-describedby="nomHelp"
+              placeholder="Nom"
+              required
+            />
+          </div>
+          <div class="col">
+            <label class="mt-2" for="inputPrenom">Prenom</label>
+            <input
+              type="text"
+              class="form-control"
+              name="inputPrenom"
+              aria-describedby="prenomHelp"
+              placeholder="Prenom"
+              required
+            />
+          </div>
+        </div>
+        <!-- INPUT EMAIL -->
+        <label class="mt-2" for="inputEmail">Email</label>
+        <input
+          type="email"
+          class="form-control"
+          name="inputEmail"
+          aria-describedby="emailHelp"
+          placeholder="E-mail"
+          required
+        />
+        <!-- INPUT MESSAGE -->
+        <label class="mt-2" for="inputMessage">Message</label>
+        <textarea
+          class="form-control"
+          name="inputMessage"
+          aria-label="Message"
+          placeholder="Message"
+          required
+        ></textarea>
+        <!-- SUBMIT BTN -->
+        <button
+          type="submit"
+          class="btn btn-outline-light mt-2 mb-5 float-right"
+          id="submitContact"
+        >
+          Contact Me
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
