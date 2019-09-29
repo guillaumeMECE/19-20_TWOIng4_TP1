@@ -8,6 +8,7 @@
   /* height: 630px; */
   overflow: hidden;
   padding: 10px 0 40px 60px;
+  /* font-family: "Roboto", sans-serif; */
 }
 
 .box ul {
@@ -35,6 +36,7 @@
 }
 
 .box ul li {
+  font-family: "Roboto", sans-serif;
   margin: 20px 60px 60px;
   position: relative;
   padding: 10px 20px;
@@ -106,12 +108,14 @@
   font-size: 25px;
   margin-bottom: 5px;
   text-align: center;
+  letter-spacing: 1px;
 }
 
 .box .title {
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 5px;
+  letter-spacing: 1px;
 }
 
 .box .info:first-letter {

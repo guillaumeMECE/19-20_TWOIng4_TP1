@@ -1,0 +1,37 @@
+.projects {
+  width: 100%;
+  background-color: whitesmoke;
+  padding: 20px;
+}
+.mozaic-grid {
+  text-align: center;
+}
+.mozaic-img {
+  margin: 10px;
+  width: 225px;
+  height: 225px;
+}
+
+.overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 3000;
+  cursor: pointer;
+}
+
+.overlay-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  border: 5px solid #fff;
+  border-radius: 10px;
+}
