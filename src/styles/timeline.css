@@ -72,8 +72,32 @@
 .box ul li > span:before {
   top: -10px;
 }
+.box ul li > span > a > img {
+  display: block;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: -20px;
+  top: -25px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
 .box ul li > span:after {
   top: 95%;
+}
+
+.box .logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 3px;
+}
+
+.box .logo-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid white;
 }
 
 .box .year {
