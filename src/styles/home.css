@@ -29,7 +29,7 @@
 }
 
 body {
-  background-color: coral;
+  background-color: rgb(255, 109, 109);
 }
 
 h1 {
@@ -57,7 +57,7 @@ h1 {
   letter-spacing: 5px;
   top: 30%;
   left: 50px;
-  background-color: rgba(250, 129, 0, 1);
+  background-color: rgb(255, 109, 109);
   color: whitesmoke;
   border-radius: 15px;
   padding: 20px;
@@ -82,7 +82,7 @@ textarea {
 }
 
 #submitContact:hover {
-  color: coral;
+  color: rgb(255, 109, 109);
 }
 
 .social-media {

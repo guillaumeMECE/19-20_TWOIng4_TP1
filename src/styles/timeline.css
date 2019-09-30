@@ -1,5 +1,5 @@
 .timeline {
-  /* background-color: coral; */
+  /* background-color: rgb(255, 109, 109); */
   width: 100%;
 }
 
@@ -65,7 +65,7 @@
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background: coral;
+  background: rgb(255, 109, 109);
   border: 2px solid #fff;
   position: absolute;
   left: -7.5px;
