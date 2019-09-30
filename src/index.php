@@ -72,7 +72,7 @@
         document.getElementById("nav-timeline").classList.remove("md-inactive");
         document.getElementById("nav-projects").classList.add("md-inactive");
         document.getElementById("nav-media").classList.add("md-inactive");
-      }else if(scrollPercent >=74 && scrollPercent < 95){
+      }else if(scrollPercent >=74 && scrollPercent < 94.5){
         document.getElementById("nav-timeline").classList.add("md-inactive");
         document.getElementById("nav-projects").classList.remove("md-inactive");
         document.getElementById("nav-media").classList.add("md-inactive");
