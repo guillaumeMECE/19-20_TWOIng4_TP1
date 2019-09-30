@@ -1,5 +1,7 @@
 # TP1
 
+# GUILLAUME MAURIN OCRES 4
+
 A lire impérativement avant de commencer quoi que ce soit, ce sont les règles que vous devrez appliquer tout au long du semestre:
 
 <p align="center">
@@ -35,7 +37,9 @@ Le but de ce TP est de vous faire découvrir, pour certains, le monde du web alo
 Vous forkez ce repository et vous commencez à travailler sur **votre** copie. Si vous avez des doutes demandez à votre professeur il est la pour ça.
 Vous modifiez votre readme et vous y incorporez **votre prénom, votre nom et votre TD**
 
-## PLUG-IN
+## PLUGIN
+
+### TIMELINE
 
 Copyright (c) 2017 by MO7AMED (http://codepen.io/mo7hamed/pen/dRoMwo)
 
