@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="./styles/home.css" />
     <link rel="stylesheet" href="./styles/timeline.css" />
     <link rel="stylesheet" href="./styles/projects.css" />
+    <link rel="stylesheet" href="./styles/animate.css" type="text/css">
   </head>
   <body>
     <!-- TOP HOME -->
@@ -57,6 +58,10 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+
+    <!-- WOW JS -->
+    <script src="./javascript/wow.min.js"></script>
+    <script>new WOW().init();</script>
 
     <!-- SCROLLSPY -->
   <script src="./javascript/scrollspy.js"></script>
